@@ -10,13 +10,11 @@ public class Rectangulo extends FiguraGeometrica {
 
     @Override
     public double obtenerArea() {
-        // Complejidad temporal: O(1) Tiempo constante.
         return lado1 * lado2;
     }
 
     @Override
     public double obtenerPerimetro() {
-        // Complejidad temporal: O(1) Tiempo constante.
         return 2 * (lado1 + lado2);
     }
 }

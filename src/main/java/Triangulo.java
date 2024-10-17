@@ -10,14 +10,11 @@ public class Triangulo extends FiguraGeometrica {
 
     @Override
     public double obtenerArea() {
-        // Complejidad temporal: O(1) Tiempo constante.
         return 0.5 * base * altura;
     }
 
     @Override
     public double obtenerPerimetro() {
-        // Complejidad temporal: O(1) Tiempo constante.
-        // Nota: Este cálculo asume un triángulo isósceles. Para un cálculo preciso, se necesitarían los tres lados.
         double ladoOblicuo = Math.sqrt((base/2)*(base/2) + altura*altura);
         return base + 2 * ladoOblicuo;
     }

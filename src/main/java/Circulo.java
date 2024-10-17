@@ -7,12 +7,10 @@ public class Circulo extends FiguraGeometrica {
     }
     @Override
     public double obtenerArea() {
-        // Complejidad temporal: O(1) Tiempo constante.
         return Math.PI * radio * radio;
     }
     @Override
     public double obtenerPerimetro() {
-        // Complejidad temporal: O(1) Tiempo constante.
         return 2 * Math.PI * radio;
     }
 }
